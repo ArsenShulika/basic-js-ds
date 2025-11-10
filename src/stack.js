@@ -13,9 +13,7 @@ const { NotImplementedError } = require("../lib/errors");
  *
  */
 class Stack {
-  constructor() {
-    this.items = [];
-  }
+  
 
   push(value) {
     this.items.push(value);
